@@ -8,5 +8,6 @@ const config = {
       { apiKey: process.env.TESTOMATIO },
     ],
   ],
+  testPathIgnorePatterns: ["/node_modules/", "/e2e-screenshot-tests/"],
 };
 module.exports = config;
